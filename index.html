@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<!--(c) Cansu Ozturk-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cansu PHP MySQL Project</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Welcome to Cansu`s Quiz Management System PHP MySQL Database</h1>
+    <h3>Project Description</h3>
+ Me and my teammate created a quiz management system for teachers and students. In this database system some teachers can create
+question sets (quizzes) including multiple-choice questions and students can attempt questions sets (quizzes).</p>
+<ul>
+  <li>• A question set (a quiz) is composed of at least 1 or many questions. We assume in this database; all questions are
+multiple-choice questions.</li>
+<li>• A multiple-choice question can have at least 2 options or many more options</li>
+<li>• We assume only one option is correct</li>
+<li>• Each question is stored under the category Course, Topic, and sub-topic. A question can be in several categories.</li>
+<li>• Each question has question text, 2 or more options, 1 answer, feedback text, points.</li>
+<li>• Each teacher has name, teacherID, and email address.</li>
+<li>• Each student has name, studentID, program, and email address</li>
+<li>• Students can attempt a question set several times and the result of the attempt is stored. We are interested to see, what
+options were chosen by the student in every attempt and what the total point of that attempt is.</li>
+</ul>
+<h3> EER Modeling Diagram</h3>
+<img src="EER diagram.png" alt="img">
+   
+    <ul>
+        <li><a href="php/connect.php">Connect to the MySQL Database</a></li>
+        <li><a href="php/createDB.php">Create a Database</a></li>
+        <li><a href="php/createTable1.php">Create students table</a></li>
+        <li><a href="insertData.html">Add student into the system</a></li>
+        <li><a href="updateRecord.html">Updating a student name</a></li>
+        <li><a href="deleteRecord.html">Deleting a student</a></li>
+        <li><a href="selectQuery.html">SELECT query retrieval</a></li>
+    </ul>
+  </body>
+</html>
